@@ -1,0 +1,19 @@
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik Marker Hatch', cursive;}
+h1{
+    font-size: 50px;
+}
+.fusu{
+    color:darkcyan;
+}
+select{
+    display:flex;
+}
+.half-width{
+    width:50%;
+}
