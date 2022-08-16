@@ -3,18 +3,91 @@ font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Nunito', sans-serif;
 font-family: 'Poppins', sans-serif;
+margin: 0;
 }
-
 
 h1{
-    font-size: 50px;
+font-size: 50px;
 }
-.fusu{
-    color:darkcyan;
+h2{
+font-size: 40px;}
+.orange-color {
+    color:rgb(199, 118, 81)
 }
-select{
+.flexible-container{
     display:flex;
+    margin-bottom: 80px;
 }
+
 .half-width{
-    width:50%;
-}
+        width:50%;
+        padding-left:1%;
+        margin: 50px;
+        
+    }
+    .half-width img{
+        width:80%;
+        padding :1%;
+    }
+        .link-button{
+            text-decoration: none;
+            padding: 10px 40px;
+            border-radius: 5px;
+            background-image:linear-gradient(rgb(141, 67, 67),rgb(133, 112, 75));
+            color:aliceblue;
+            font-weight: 700;
+        }
+        .top-banner{
+            background-image:url(images/top-banner.png);
+
+            background-repeat: no-repeat;
+        }
+        .dream-big{
+            background-image:url(images/dream-bg.png);
+            background-repeat: no-repeat;
+            background-position:right;
+        }
+
+        .experience-area{
+            background-image:url(images/exp-bg.png);
+            background-repeat: no-repeat;
+            background-position:left;
+
+        }
+        .color{
+            color:rgb(157, 109, 202);
+            
+        }
+        .color-red{
+            color:rgb(152, 110, 192);
+        }
+        
+        
+        .experience-item{
+            width:50%;
+            margin-left:5%;
+            margin-right:5% ;
+            padding-left: 20px;
+            box-shadow: 10px 10px 40px gray;
+            border-radius: 10px;
+    
+        
+        }
+
+        #web-dev-experience{
+            border-left: 7px solid;
+            border-image: linear-gradient(rgb(67, 67, 143),rgb(143, 38, 38));
+            border-image-slice: 1;
+            
+            
+        }
+        #full-dev-experience{
+            border-left: 7px solid;
+            border-image: linear-gradient(rgb(163, 105, 144),rgb(102, 32, 32));
+            border-image-slice: 1;
+            
+            
+        }
+        footer p{ 
+         text-align: center;
+        }
